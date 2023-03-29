@@ -1,0 +1,42 @@
+html,body{
+    height:100%;
+    weight: 100%;
+}
+
+body{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    background-color:aquamarine ;
+}
+
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+     border-radius: 9px;
+     cursor:pointer;
+}
+.row{
+    margin: 8px 0;
+}
+.row input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border:2px solid black;
+    border-radius: 5px;
+}
+.All{
+    background-color: rgb(151, 151, 169);
+    padding: 2rem;
+    border: 1px solid rgb(151, 151, 169);
+    border-radius: 10px;
+}
